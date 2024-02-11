@@ -1,0 +1,8 @@
+$( document ).ready(function() {
+    let about = $( ".section1 h2" );
+    function show() {
+        about.style.background = 'red';
+    };
+    show();
+});
+
